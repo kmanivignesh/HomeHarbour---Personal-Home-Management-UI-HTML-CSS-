@@ -2,7 +2,7 @@
 
 **HomeHarbour** is a simple and elegant HTML & CSS-based dashboard designed to help you plan, organize, and track your home-related projects efficiently.
 
-![Homepage Screenshot](images/homepage.png)
+![Homepage Screenshot](outputs/Home_page.png)
 
 ## ✨ Features
 
@@ -26,9 +26,9 @@
 
 ## 📸 Screenshots
 
-![Project Planning](images/background2.jpg)
-![Organization Tips](images/img2.jpeg)
-![Progress Tracking](images/img3.png)
+![Project Planning](outputs/project_planning.png)
+![Organization Tips](outputs/organization_tips.png)
+![Progress Tracking](outputs/progress_tracker.png)
 
 ---
 
