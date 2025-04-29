@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress tracker</title>
+    <link rel="icon" type="png"  href="webicon.png" />
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+   
+  }
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+  .pageh{
+    text-align:center;
+    background-color: #FF6347;
+    color:white;
+    padding:20px;
+  }
+
+  .container{
+    width:800px;
+    margin:0 auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border:2px solid gray;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #E0E0E0;
+  }
+
+  th {
+    background-color: #FF6347;
+    color: #FFFFFF;
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .progress {
+    height: 100%;
+    background-color: #FF6347;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    margin-bottom: 5px;
+  }
+
+  .my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    position:relative;
+    left:45%;
+}
+.my-button:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+    color:white;
+  }
+  
+  .my-button:active {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transform: translateY(0);
+  }
+    </style>
+</head>
+<body>
+    <header class="pageh">progress tracker</header>
+    <div class="container">
+       <table>
+        <thead>
+            <tr>
+                <th>project</th>
+                <th>progress</th>
+                <th>Tasks</th>
+                <th>Status</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Living room progress</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;background-color: green;"></div>
+                  </div>
+                  <p>100%</p>
+            </td>
+            <td>
+                <ul>
+                <li>Paint walls</li>
+                <li>Install new flooring</li>
+                <li>Update lightung fixtures</li>
+                
+            </ul>
+            </td>
+            <td style="background-color: green;color:white;">
+                complete
+            </td>
+        </tr>
+        <tr>
+            <td>Bed room progress</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+                <p>50%</p>
+            </td>
+            <td>
+                <ul>
+                    <li>furniture</li>
+                    <li>wooden flooring</li>
+                    <li>Wall papers</li>
+                </ul>
+            </td>
+            <td style="background-color: red;color:white;">
+                Incomplete
+            </td>
+        </tr>
+        <tr>
+            <td>dinning</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+                <p>70%</p>
+            </td>
+            <td>
+                <ul>
+                    <li>furniture</li>
+                    <li>installing portuguese tiles</li>
+                    <li>installing new lights</li>
+                </ul>
+            </td>
+            <td style="background-color: red;color:white;">
+                Incomplete
+            </td>
+        </tr>
+        <tr>
+            <td>kitchen progress</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;background-color: green;"></div>
+                </div>
+                <p>100%</p>
+            </td>
+            <td>
+                <ul>
+                    <li>furniture</li>
+                    <li>wooden flooring</li>
+                    <li>Wall papers</li>
+                </ul>
+            </td>
+            <td style="background-color: green;color:white;">
+                completed
+            </td>
+        </tr>
+
+        </tbody>
+        
+    </table>    
+       
+    </div>
+    <a href="explore.html" class="my-button"><i class="fa-solid fa-backward"></i> Back</a>
+</body>
+</html>
